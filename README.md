@@ -1,5 +1,5 @@
-#  Deviget compose solution
-Compose solution, Server and UI, for deviget transparent cache problem
+#  Deviget composed solution
+Composed solution, Server and UI, for deviget transparent cache problem
 
 ## Requirements
 
@@ -14,7 +14,7 @@ To  run the solution you only have to run from the root folder of this repo the 
 ``` bash
 $ git clone git@github.com:GregorioF2/deviget-server.git server
 
-$ docker-compose -p deviget up -d
+$ sudo docker-compose -p deviget up -d
 ```
 The Server will run by default on the port `3000`, and the UI will run on the port `8080`
 
