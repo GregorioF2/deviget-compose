@@ -1,6 +1,6 @@
-# Clovers ui
+# Deviget ui
 
-Ui solution for the jug riddle problem
+Ui solution for the devigets transparent cache problem
 
 ## Configuration variables
 To configure the server that the application should connect to.
@@ -12,8 +12,8 @@ To configure the server that the application should connect to.
 
 ### Docker setup:
 ```bash
- sudo docker build . -t clover_ui
- sudo docker run --network host -it clover_ui
+ sudo docker build . -t deviget_ui
+ sudo docker run --network host -it deviget_ui
 ```
 
 ### Local setup: 
@@ -23,16 +23,6 @@ npm install
 
 #### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-#### Compiles and minifies for production
-```
-npm run build
-```
-
-#### Lints and fixes files
-```
-npm run lint
+npm run dev
 ```
 
